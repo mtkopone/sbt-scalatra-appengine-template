@@ -11,7 +11,7 @@ class ExampleServletSpec extends ScalatraSpecification with Mockito {
     "say hello" in {
       get("/") {
         status mustEqual 200
-        body mustEqual "<h1>Hello, world!</h1>"
+        body mustEqual "<h1>Hello, appengine!</h1>"
       }
     }
     "return mocked user" in {
