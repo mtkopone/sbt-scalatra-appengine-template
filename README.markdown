@@ -17,5 +17,3 @@ Change src/main/webapp/WEB-INF/appengine-web.xml:application to match you app-id
 
          $ sbt idea
          > "Open existing project" in Idea
-         
-To run jetty in Idea, just open EmbeddedJetty and Run/Debug.
